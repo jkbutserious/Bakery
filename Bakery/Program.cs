@@ -17,12 +17,16 @@ namespace Bakery
         if (Key.Key == ConsoleKey.B)
         {
           CustomerBread.Count++;
+          Console.WriteLine("---------------------------------------------------------");
           Console.WriteLine("Bread added to cart!");
+          Console.WriteLine("---------------------------------------------------------");
         }
         if (Key.Key == ConsoleKey.P)
         {
           CustomerPastries.Count++;
+          Console.WriteLine("---------------------------------------------------------");
           Console.WriteLine("Pastry added to cart!");
+          Console.WriteLine("---------------------------------------------------------");
 
         }
         Console.WriteLine($"Total Bread: {CustomerBread.Count}, ${CustomerBread.BreadTotal}");
