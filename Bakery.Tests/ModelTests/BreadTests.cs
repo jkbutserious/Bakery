@@ -13,10 +13,22 @@ namespace Bakery.Tests
       Bread TestBread = new Bread();
       
       //Act
-      TestBread.Loaves = 6;
+      TestBread.Count = 6;
 
       //Assert
       Assert.AreEqual(20, TestBread.BreadTotal);
+    }
+    [TestMethod]
+    public void BreadTotal_CalculatePriceWithoutDiscount_int()
+    {
+      //Arrange
+      Bread TestBread = new Bread();
+      
+      //Act
+      TestBread.Count = 1;
+
+      //Assert
+      Assert.AreEqual(5, TestBread.BreadTotal);
     }
   }
 }
