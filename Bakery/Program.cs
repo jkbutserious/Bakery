@@ -5,8 +5,8 @@ namespace Bakery
 {
   class Program
   {
-    static Bread Bread = new Bread();
-    static Pastries Pastries = new Pastries();
+    static Bread CustomerBread = new Bread();
+    static Pastries CustomerPastries = new Pastries();
     static void Main(string[] args)
     {
       Console.WriteLine("Bienvenu a Boulangerie de Pierre!");
@@ -16,22 +16,23 @@ namespace Bakery
       {
         if (Key.Key == ConsoleKey.B)
         {
-          Bread.Count++;
+          CustomerBread.Count++;
           Console.WriteLine("Bread added to cart!");
         }
         if (Key.Key == ConsoleKey.P)
         {
-          Pastries.Count++;
+          CustomerPastries.Count++;
           Console.WriteLine("Pastry added to cart!");
 
         }
-        Console.WriteLine($"Total Bread: {Bread.Count}, ${Bread.BreadTotal}");
-        Console.WriteLine($"Total Pastries: {Pastries.Count}, ${Pastries.PastriesTotal}");
+        Console.WriteLine($"Total Bread: {CustomerBread.Count}, ${CustomerBread.BreadTotal}");
+        Console.WriteLine($"Total Pastries: {CustomerPastries.Count}, ${CustomerPastries.PastriesTotal}");
 
         Key = Console.ReadKey(true);
       }
-      Console.WriteLine($"Total Discount: -${Bread.Discount + Pastries.Discount}");
-      Console.WriteLine($"Total Cost: ${Bread.BreadTotal + Pastries.PastriesTotal}");
+      Console.WriteLine("---------------------------------------------------------");
+      Console.WriteLine($"Total Discount: -${CustomerBread.Discount + CustomerPastries.Discount}");
+      Console.WriteLine($"Total Cost: ${CustomerBread.BreadTotal + CustomerPastries.PastriesTotal}");
 
     }
   }
