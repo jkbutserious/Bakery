@@ -8,7 +8,6 @@ namespace Bakery.Models
     {
       UnitPrice = 5;
     }
-    // public double PricePerLoaf { get; set; } = 5;
     public override double Discount
     {
       get
@@ -16,15 +15,5 @@ namespace Bakery.Models
         return Math.Floor(Count / 3.0) * UnitPrice;
       }
     }
-    // public double BreadTotal
-    // {
-    //   get
-    //   {
-    //     return PricePerLoaf * Count - Discount;
-    //   }
-    // }
-    // public int Count { get; set; }
-
-
   }
 }
