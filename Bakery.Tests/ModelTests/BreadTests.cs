@@ -7,7 +7,7 @@ namespace Bakery.Tests
   public class BakeryTests
   {
     [TestMethod]
-    public void BreadTotal_AddOneLoafOfBreadToOrder_1()
+    public void BreadTotal_CalculatePriceWithDiscount_int()
     {
       //Arrange
       Bread TestBread = new Bread();
