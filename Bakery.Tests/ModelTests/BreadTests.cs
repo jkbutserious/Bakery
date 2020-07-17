@@ -4,7 +4,7 @@ using Bakery.Models;
 namespace Bakery.Tests
 {
   [TestClass]
-  public class BakeryTests
+  public class BreadTests
   {
     [TestMethod]
     public void BreadTotal_CalculatePriceWithDiscount_int()
