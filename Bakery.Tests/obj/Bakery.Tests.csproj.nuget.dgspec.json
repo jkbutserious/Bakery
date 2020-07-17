@@ -1,17 +1,83 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jeff\\Documents\\Epicodus\\wk8\\Bakery.Solution\\Bakery.tests\\Bakery.Tests.csproj": {}
+    "C:\\Users\\Jeff\\Desktop\\Epicodus\\wk8\\Bakery.Solution\\Bakery.Tests\\Bakery.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jeff\\Documents\\Epicodus\\wk8\\Bakery.Solution\\Bakery.tests\\Bakery.Tests.csproj": {
+    "C:\\Users\\Jeff\\Desktop\\Epicodus\\wk8\\Bakery.Solution\\Bakery.Tests\\Bakery.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jeff\\Documents\\Epicodus\\wk8\\Bakery.Solution\\Bakery.tests\\Bakery.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Jeff\\Desktop\\Epicodus\\wk8\\Bakery.Solution\\Bakery.Tests\\Bakery.Tests.csproj",
         "projectName": "Bakery.Tests",
-        "projectPath": "C:\\Users\\Jeff\\Documents\\Epicodus\\wk8\\Bakery.Solution\\Bakery.tests\\Bakery.Tests.csproj",
+        "projectPath": "C:\\Users\\Jeff\\Desktop\\Epicodus\\wk8\\Bakery.Solution\\Bakery.Tests\\Bakery.Tests.csproj",
         "packagesPath": "C:\\Users\\Jeff\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jeff\\Documents\\Epicodus\\wk8\\Bakery.Solution\\Bakery.tests\\obj\\",
+        "outputPath": "C:\\Users\\Jeff\\Desktop\\Epicodus\\wk8\\Bakery.Solution\\Bakery.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Jeff\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\Jeff\\Desktop\\Epicodus\\wk8\\Bakery.Solution\\Bakery\\Bakery.csproj": {
+                "projectPath": "C:\\Users\\Jeff\\Desktop\\Epicodus\\wk8\\Bakery.Solution\\Bakery\\Bakery.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[1.3.2, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[1.3.2, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Jeff\\Desktop\\Epicodus\\wk8\\Bakery.Solution\\Bakery\\Bakery.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jeff\\Desktop\\Epicodus\\wk8\\Bakery.Solution\\Bakery\\Bakery.csproj",
+        "projectName": "Bakery",
+        "projectPath": "C:\\Users\\Jeff\\Desktop\\Epicodus\\wk8\\Bakery.Solution\\Bakery\\Bakery.csproj",
+        "packagesPath": "C:\\Users\\Jeff\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jeff\\Desktop\\Epicodus\\wk8\\Bakery.Solution\\Bakery\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -39,18 +105,6 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
-            "MSTest.TestAdapter": {
-              "target": "Package",
-              "version": "[1.3.2, )"
-            },
-            "MSTest.TestFramework": {
-              "target": "Package",
-              "version": "[1.3.2, )"
-            },
-            "Microsoft.NET.Test.Sdk": {
-              "target": "Package",
-              "version": "[15.9.0, )"
-            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",

@@ -6,17 +6,17 @@ namespace Bakery.Tests
   [TestClass]
   public class BakeryTests
   {
-    public void AddBreadToOrder_AddOneLoafOfBreadToOrder_1()
+    [TestMethod]
+    public void BreadTotal_AddOneLoafOfBreadToOrder_1()
     {
       //Arrange
-      Order TestOrder = new Order;
-      Bread TestBread = new Bread;
-
-      //Act
-      TestBread.AddBreadToOrder();
+      Bread TestBread = new Bread();
       
+      //Act
+      TestBread.Loaves = 6;
+
       //Assert
-      Assert.AreEqual(1, TestOrder.Loaves)
+      Assert.AreEqual(20, TestBread.BreadTotal);
     }
   }
 }
