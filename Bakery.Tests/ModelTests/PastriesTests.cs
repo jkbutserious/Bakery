@@ -18,17 +18,17 @@ namespace Bakery.Tests
       //Assert
       Assert.AreEqual(10, TestPastries.PastriesTotal);
     }
-    // [TestMethod]
-    // public void PastriesTotal_CalculatePriceWithoutDiscount_int()
-    // {
-    //   //Arrange
-    //   Pastries TestPastries = new Pastries();
+    [TestMethod]
+    public void PastriesTotal_CalculatePriceWithoutDiscount_int()
+    {
+      //Arrange
+      Pastries TestPastries = new Pastries();
       
-    //   //Act
-    //   TestPastries.Count = 1;
+      //Act
+      TestPastries.Count = 2;
 
-    //   //Assert
-    //   Assert.AreEqual(5, TestPastries.PastriesTotal);
-    // }
+      //Assert
+      Assert.AreEqual(4, TestPastries.PastriesTotal);
+    }
   }
 }
