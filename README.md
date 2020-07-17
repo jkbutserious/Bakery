@@ -6,14 +6,16 @@
 
 ## Description
 
-Pierre is a simple, hardworking man. He learned to make le pain (bread) and les patisseries from his father.
+Pierre is a simple, hardworking man. He learned to make le pain (bread) and les patisseries from his father. As luck would have it, he has recently become engaged to the wealthy heirress of a well-known flour empire, which will cut his costs considerably, and he wants to pass the savings on to you, the customer!
+
+This exercise is part of a take-home technical challenge that will demonstrate Jeff's skills in C# development. The end product is a console app that will allow users to input the number of bread and pastries they want and display the total price of their order, along with their discount savings.
 
 ## Specs
 
 | Behavior    | Sample Input | Sample Output |
 | :---------- | ----- | -----: |
-| Program will prompt users to enter a number for the number of loaves of bread they want | 2 | "2 loaves of bread" |
-| Program will prompt users to enter a number for the number of pastries they want | 3 | "3 pastries |
+| Program will prompt users to press the 'B' key to add a loaf of bread to their cart | 'B' | "1 loaves of bread" |
+| Program will prompt users to press the 'P' key to add a pastry to their cart | 'P' | "1 pastry" |
 | Program will calculate the price of an order based on the number of pastries and loaves of bread | 2, 3 | "Total: $16" |
 | Program will apply discounts to orders for bread: buy 2 get 1 free | 3, 3 | Total: $16 |
 | Program will apply discounts to orders for pastries: buy 1 for $2, or 3 for $5 | 3, 3 | $15 |
