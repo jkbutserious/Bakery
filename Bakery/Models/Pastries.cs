@@ -2,24 +2,22 @@ using System;
 
 namespace Bakery.Models
 {
-  public class Pastries
+  public class Pastries : BakedGood
   {
-    public double PricePerPastry { get; set; } = 2;
-    public double Discount
+    public Pastries()
     {
-      get
-      {
-        return Math.Floor(Count / 3.0) * (PricePerPastry / 2);
-      }
+      UnitPrice = 2;
     }
-    public double PastriesTotal
-    {
-      get
-      {
-        return PricePerPastry * Count - Discount;
-      }
-    }
-    public int Count { get; set; }
+    // public double PricePerPastry { get; set; } = 2;
+    public override double Discount => Math.Floor(Count / 3.0) * (UnitPrice / 2);
+    // public double PastriesTotal
+    // {
+    //   get
+    //   {
+    //     return PricePerPastry * Count - Discount;
+    //   }
+    // }
+    // public int Count { get; set; }
 
 
   }

@@ -29,14 +29,14 @@ namespace Bakery
           Console.WriteLine("---------------------------------------------------------");
 
         }
-        Console.WriteLine($"Total Bread: {CustomerBread.Count}, ${CustomerBread.BreadTotal}");
-        Console.WriteLine($"Total Pastries: {CustomerPastries.Count}, ${CustomerPastries.PastriesTotal}");
+        Console.WriteLine($"Total Bread: {CustomerBread.Count}, ${CustomerBread.Total}");
+        Console.WriteLine($"Total Pastries: {CustomerPastries.Count}, ${CustomerPastries.Total}");
 
         Key = Console.ReadKey(true);
       }
       Console.WriteLine("---------------------------------------------------------");
       Console.WriteLine($"Total Discount: -${CustomerBread.Discount + CustomerPastries.Discount}");
-      Console.WriteLine($"Total Cost: ${CustomerBread.BreadTotal + CustomerPastries.PastriesTotal}");
+      Console.WriteLine($"Total Cost: ${CustomerBread.Total + CustomerPastries.Total}");
 
     }
   }

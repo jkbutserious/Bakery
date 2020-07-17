@@ -16,7 +16,7 @@ namespace Bakery.Tests
       TestBread.Count = 6;
 
       //Assert
-      Assert.AreEqual(20, TestBread.BreadTotal);
+      Assert.AreEqual(20, TestBread.Total);
     }
     [TestMethod]
     public void BreadTotal_CalculatePriceWithoutDiscount_int()
@@ -28,7 +28,7 @@ namespace Bakery.Tests
       TestBread.Count = 1;
 
       //Assert
-      Assert.AreEqual(5, TestBread.BreadTotal);
+      Assert.AreEqual(5, TestBread.Total);
     }
   }
 }

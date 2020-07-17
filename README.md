@@ -6,7 +6,7 @@
 
 ## Description
 
-_DETAILED DESCRIPTION_
+Pierre is a simple, hardworking man. He learned to make le pain (bread) and les patisseries from his father.
 
 ## Specs
 

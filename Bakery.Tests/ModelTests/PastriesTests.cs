@@ -16,7 +16,7 @@ namespace Bakery.Tests
       TestPastries.Count = 6;
 
       //Assert
-      Assert.AreEqual(10, TestPastries.PastriesTotal);
+      Assert.AreEqual(10, TestPastries.Total);
     }
     [TestMethod]
     public void PastriesTotal_CalculatePriceWithoutDiscount_int()
@@ -28,7 +28,7 @@ namespace Bakery.Tests
       TestPastries.Count = 2;
 
       //Assert
-      Assert.AreEqual(4, TestPastries.PastriesTotal);
+      Assert.AreEqual(4, TestPastries.Total);
     }
   }
 }
