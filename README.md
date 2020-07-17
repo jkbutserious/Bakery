@@ -22,27 +22,52 @@ This exercise is part of a take-home technical challenge that will demonstrate J
 
 ## Setup/Installation Requirements
 
-To use this site:
+Requirements:
+* [.NET Core SDK 2.2](https://dotnet.microsoft.com/download/thank-you/dotnet-sdk-2.2.203-windows-x64-installer)
+
+To use this program:
 
 1. Open your preferred browser.
-2. Navigate to https://jkbutserious.github.io/REPO-NAME.
-3. USER INSTRUCTIONS
+2. Navigate to https://github.com/jkbutserious/Bakery.Solution.git.
+3. Click the **Code** button and click **Download ZIP** to clone the repository to your computer.
+4. Open the Windows PowerShell console or the MacOS Terminal and use the 
+    
+    ```cd [YOUR DOWNLOAD FILEPATH]/Bakery.Solution/Bakery```
+    
+    command to navigate to the Bakery subdirectory.
+5. Use the 
+
+    ```dotnet restore```
+
+    command to install the necessary packages on your computer.
+
+6. Use the 
+
+    ```dotnet run```
+
+    command to run the program.
+
+7. Read the instructions and press 'B' to add a loaf of bread to your cart, 'P' to add a pastry, and 'C' to checkout and see your discount and total price.
+
+8. If you have any issues running this program, please reach out to the developer or troubleshoot at your own risk.
 
 You will receive output in the form of a range of numbers and strings.
 
 To contribute to this project:
 
 1. Open your preferred browser.
-2. Navigate to https://github.com/jkbutserious/REPO-NAME.
+2. Navigate to https://github.com/jkbutserious/Bakery.Solution.
 3. Log into or sign up for your GitHub account.
 4. Click the **Fork** button to copy the repository and all source code.
-5. From your forked repository, you can download or clone the repository, by clicking the **Clone or download** button.
+5. From your forked repository, you can download or clone the repository, by clicking the **Code** button.
+  * To clone the repository in Visual Studio Code's terminal, use the command
+
+    ```git clone https://github.com/jkbutserious/Bakery.Solution```
   * To clone the repository in GitHub Desktop, click the **Open in Desktop** option
   * To download the repository, click the **Download ZIP** option, save the archive to your computer, and extract it to the folder of your choice
-6. Use your preferred code editor to edit index.html, styles.css, and/or scripts.js. **Note**: the following files are inclusions from popular code libraries and should not be edited:
-  * bootstrap.css
-  * bootstrap.css.map
-  * jquery-3.5.1.js
+6. Use your preferred code editor to edit Program.cs, BakedGood.cs, Bread.cs, or Pastry.cs. New classes should be added in the Models subdirectory and should use the ```Bakery.Models``` namespace. **Note**: the following files are C# project files and should not be edited:
+  * Bakery.csproj
+  * Bakery.Tests.csproj
 7. Save any changes you make in your code editor and use your preferred git solution to commit your changes.
 8. Push your changes to your forked repository.
 
@@ -59,11 +84,9 @@ To report any issues with this page or to contribute to this project, contact Je
 
 This page was created using the following technologies:
 
-* HTML
-* CSS
-* Bootstrap
-* JavaScript
-* JQuery
+* C# programming language
+* .NET Core SDK 2.2
+* Visual Studio Code
 
 ### License
 
